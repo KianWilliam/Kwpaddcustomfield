@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="content" method="upgrade">
+	<name>Content - kwpaddcustomfield</name>
+	<author>KWProductions Co.</author>
+	<creationDate>July 25</creationDate>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>webarchitect@kwproductions121.ir</authorEmail>
+	<authorUrl>kwproductions121.ir</authorUrl>
+	<version>1.0.0</version>
+	<scriptfile>script.php</scriptfile>
+	<description><![CDATA[ It adds custom fields to custom component.<a href='https://extensions.kwproductions121.ir'>KWProductions Co.</a>]]></description>
+	
+	<files>
+		<filename plugin="kwpaddcustomfield">kwpaddcustomfield.php</filename>
+		<filename>index.html</filename>	
+        <folder>Field</folder>
+<folder>Forms</folder>		
+	</files>
+	<config>
+	
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+      type="text"
+      name="componentname"     
+      label="Input The Component Name To Be Viewed Its Items In Modal Window:"
+      hint="borggique"
+	  required = "true"
+      />
+	  
+	  <field
+      type="text"
+      name="tablename"     
+      label="Input The Component Table Name To Be Viewed Its Items In Modal Window:"
+      hint="#__borggique"
+	  required = "true"
+      />
+	 
+	  	<field
+      type="text"
+      name="componentform"     
+      label="Input The Component Name That Its Form Backend Will Be Used To Reveal Modal Window :"
+      hint="kwpanorama"
+	  
+      />
+	  
+	  	<field
+      type="number"
+      name="moduleform"     
+      label="Input The Module id That Its Form Backend Will Be Used To Reveal Modal Window :"
+      hint="121"
+	  
+      />
+	  
+	  	<field
+      type="number"
+      name="pluginform"     
+      label="Input The Plugin id That Its Form Backend Will Be Used To Reveal Modal Window :"
+      hint="121"
+	  
+      />
+	  
+			</fieldset>
+			
+		</fields>
+	
+	</config>
+	
+
+	
+</extension>

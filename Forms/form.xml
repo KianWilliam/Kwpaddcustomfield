@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="params" label="Napoleon"  addfieldpath="plugins/content/kwpaddcustomfield/Field">
+		<field
+      type="componentlist"
+      name="component_id"     
+      label="Select An Item:"
+      hint="Borggique Gallery"
+      />
+		
+		</fieldset>
+	</fields>
+</form>
+
